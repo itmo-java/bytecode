@@ -1,0 +1,4146 @@
+{
+  "inputJar": "fescar.jar",
+  "project": {
+    "classCount": 275,
+    "interfaceCount": 55,
+    "maximumInheritanceDepth": 4,
+    "averageInheritanceDepth": 0.5272727272727272,
+    "averageOverriddenMethods": 1.28,
+    "averageFields": 3.1272727272727274,
+    "abc": {
+      "assignments": 1655,
+      "branches": 7437,
+      "conditions": 1049,
+      "value": 7690.799373277137
+    }
+  },
+  "classes": [
+    {
+      "name": "ServerTest",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 1,
+        "branches": 10,
+        "conditions": 0,
+        "value": 10.04987562112089
+      }
+    },
+    {
+      "name": "WriteStoreTest",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 5,
+      "abc": {
+        "assignments": 19,
+        "branches": 99,
+        "conditions": 9,
+        "value": 101.2077072163973
+      }
+    },
+    {
+      "name": "WriteStoreTest$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 16,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 8,
+        "branches": 17,
+        "conditions": 1,
+        "value": 18.81488772222678
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.common.Constants",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 4,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.common.XID",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 2,
+        "branches": 13,
+        "conditions": 2,
+        "value": 13.30413469565007
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.common.exception.FrameworkErrorCode",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 21,
+      "abc": {
+        "assignments": 0,
+        "branches": 21,
+        "conditions": 0,
+        "value": 21.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.common.exception.FrameworkException",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 0,
+        "branches": 17,
+        "conditions": 2,
+        "value": 17.11724276862369
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.common.exception.NotSupportYetException",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 4,
+        "conditions": 0,
+        "value": 4.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.common.exception.ShouldNeverHappenException",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 4,
+        "conditions": 0,
+        "value": 4.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.common.loader.EnhancedServiceLoader",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 4,
+      "abc": {
+        "assignments": 35,
+        "branches": 102,
+        "conditions": 21,
+        "value": 109.86355173577815
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.common.loader.EnhancedServiceLoader$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 6,
+        "branches": 11,
+        "conditions": 2,
+        "value": 12.68857754044952
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.common.loader.EnhancedServiceNotFoundException",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 15,
+        "conditions": 0,
+        "value": 15.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.common.thread.NamedThreadFactory",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 4,
+      "abc": {
+        "assignments": 3,
+        "branches": 18,
+        "conditions": 2,
+        "value": 18.35755975068582
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.common.util.BlobUtils",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 6,
+        "branches": 13,
+        "conditions": 3,
+        "value": 14.628738838327793
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.common.util.NetUtil",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 5,
+      "abc": {
+        "assignments": 28,
+        "branches": 77,
+        "conditions": 16,
+        "value": 83.4805366537614
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.common.util.StringUtils",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 3,
+        "branches": 11,
+        "conditions": 5,
+        "value": 12.449899597988733
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.config.ConfigFuture",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 9,
+      "abc": {
+        "assignments": 2,
+        "branches": 29,
+        "conditions": 6,
+        "value": 29.681644159311663
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.config.ConfigFuture$ConfigOperation",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 5,
+      "abc": {
+        "assignments": 0,
+        "branches": 7,
+        "conditions": 0,
+        "value": 7.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.config.ConfigurationFactory",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.config.FileConfiguration",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 21,
+      "fieldCount": 6,
+      "abc": {
+        "assignments": 7,
+        "branches": 49,
+        "conditions": 0,
+        "value": 49.49747468305833
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.config.FileConfiguration$ConfigOperateRunnable",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 2,
+        "branches": 19,
+        "conditions": 8,
+        "value": 20.712315177207977
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.config.FileConfigurationTest",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 2,
+        "branches": 6,
+        "conditions": 0,
+        "value": 6.324555320336759
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.context.ContextCoreLoader",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.context.ContextCoreLoader$ContextCoreHolder",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 2,
+        "branches": 3,
+        "conditions": 1,
+        "value": 3.7416573867739413
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.context.RootContext",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 1,
+        "branches": 21,
+        "conditions": 4,
+        "value": 21.4009345590327
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.context.ThreadLocalContextCore",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 3,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 8,
+        "conditions": 0,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.context.ThreadLocalContextCore$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.exception.AbstractExceptionHander",
+      "kind": "abstract",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 2,
+        "branches": 21,
+        "conditions": 0,
+        "value": 21.095023109728988
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.exception.TransactionException",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 7,
+        "conditions": 0,
+        "value": 7.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.exception.TransactionExceptionCode",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 16,
+      "abc": {
+        "assignments": 4,
+        "branches": 27,
+        "conditions": 2,
+        "value": 27.367864366808018
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.message.CodecTest",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 6,
+        "branches": 12,
+        "conditions": 0,
+        "value": 13.416407864998739
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.model.BranchStatus",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 12,
+      "abc": {
+        "assignments": 4,
+        "branches": 23,
+        "conditions": 2,
+        "value": 23.430749027719962
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.model.BranchType",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 4,
+        "branches": 14,
+        "conditions": 2,
+        "value": 14.696938456699069
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.model.GlobalStatus",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 16,
+      "abc": {
+        "assignments": 4,
+        "branches": 27,
+        "conditions": 2,
+        "value": 27.367864366808018
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.AbstractIdentifyRequest",
+      "kind": "abstract",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 2,
+      "fieldCount": 6,
+      "abc": {
+        "assignments": 15,
+        "branches": 59,
+        "conditions": 14,
+        "value": 62.46599074696566
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.AbstractIdentifyResponse",
+      "kind": "abstract",
+      "inheritanceDepth": 2,
+      "overriddenMethodCount": 2,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 4,
+        "branches": 12,
+        "conditions": 7,
+        "value": 14.45683229480096
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.AbstractMessage",
+      "kind": "abstract",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 27,
+      "abc": {
+        "assignments": 16,
+        "branches": 38,
+        "conditions": 7,
+        "value": 41.821047332652974
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.AbstractResultMessage",
+      "kind": "abstract",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 3,
+      "fieldCount": 4,
+      "abc": {
+        "assignments": 11,
+        "branches": 40,
+        "conditions": 13,
+        "value": 43.47413023856832
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.HeartbeatMessage",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 4,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 1,
+        "value": 3.1622776601683795
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.MergeResultMessage",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 3,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 21,
+        "branches": 34,
+        "conditions": 7,
+        "value": 40.570925550201586
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.MergedWarpMessage",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 3,
+      "fieldCount": 4,
+      "abc": {
+        "assignments": 18,
+        "branches": 47,
+        "conditions": 7,
+        "value": 50.813384063650005
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.MessageFuture",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 6,
+      "abc": {
+        "assignments": 1,
+        "branches": 15,
+        "conditions": 5,
+        "value": 15.84297951775486
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.RegisterRMRequest",
+      "kind": "class",
+      "inheritanceDepth": 2,
+      "overriddenMethodCount": 3,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 17,
+        "branches": 40,
+        "conditions": 13,
+        "value": 45.36518488885502
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.RegisterRMResponse",
+      "kind": "class",
+      "inheritanceDepth": 3,
+      "overriddenMethodCount": 1,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.RegisterTMRequest",
+      "kind": "class",
+      "inheritanceDepth": 2,
+      "overriddenMethodCount": 1,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 12,
+        "conditions": 0,
+        "value": 12.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.RegisterTMResponse",
+      "kind": "class",
+      "inheritanceDepth": 3,
+      "overriddenMethodCount": 1,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.ResultCode",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 4,
+        "branches": 14,
+        "conditions": 2,
+        "value": 14.696938456699069
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.RpcMessage",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 6,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.UncompatibleVersionException",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.Version",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 0,
+        "branches": 8,
+        "conditions": 0,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.AbstractBranchEndRequest",
+      "kind": "abstract",
+      "inheritanceDepth": 3,
+      "overriddenMethodCount": 2,
+      "fieldCount": 6,
+      "abc": {
+        "assignments": 16,
+        "branches": 36,
+        "conditions": 14,
+        "value": 41.80908992073374
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.AbstractBranchEndResponse",
+      "kind": "abstract",
+      "inheritanceDepth": 3,
+      "overriddenMethodCount": 3,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 1,
+        "branches": 10,
+        "conditions": 1,
+        "value": 10.099504938362077
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.AbstractGlobalEndRequest",
+      "kind": "abstract",
+      "inheritanceDepth": 3,
+      "overriddenMethodCount": 2,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 5,
+        "branches": 15,
+        "conditions": 3,
+        "value": 16.09347693943108
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.AbstractGlobalEndResponse",
+      "kind": "abstract",
+      "inheritanceDepth": 3,
+      "overriddenMethodCount": 2,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 7,
+        "conditions": 0,
+        "value": 7.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.AbstractTransactionRequest",
+      "kind": "abstract",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.AbstractTransactionRequestToRM",
+      "kind": "abstract",
+      "inheritanceDepth": 2,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.AbstractTransactionRequestToTC",
+      "kind": "abstract",
+      "inheritanceDepth": 2,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.AbstractTransactionResponse",
+      "kind": "abstract",
+      "inheritanceDepth": 2,
+      "overriddenMethodCount": 3,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 1,
+        "branches": 10,
+        "conditions": 1,
+        "value": 10.099504938362077
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.BranchCommitRequest",
+      "kind": "class",
+      "inheritanceDepth": 4,
+      "overriddenMethodCount": 2,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.BranchCommitResponse",
+      "kind": "class",
+      "inheritanceDepth": 4,
+      "overriddenMethodCount": 1,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.BranchRegisterRequest",
+      "kind": "class",
+      "inheritanceDepth": 3,
+      "overriddenMethodCount": 4,
+      "fieldCount": 5,
+      "abc": {
+        "assignments": 8,
+        "branches": 28,
+        "conditions": 8,
+        "value": 30.199337741083
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.BranchRegisterResponse",
+      "kind": "class",
+      "inheritanceDepth": 3,
+      "overriddenMethodCount": 3,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 0,
+        "branches": 7,
+        "conditions": 0,
+        "value": 7.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.BranchReportRequest",
+      "kind": "class",
+      "inheritanceDepth": 3,
+      "overriddenMethodCount": 4,
+      "fieldCount": 5,
+      "abc": {
+        "assignments": 8,
+        "branches": 28,
+        "conditions": 8,
+        "value": 30.199337741083
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.BranchReportResponse",
+      "kind": "class",
+      "inheritanceDepth": 3,
+      "overriddenMethodCount": 1,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.BranchRollbackRequest",
+      "kind": "class",
+      "inheritanceDepth": 4,
+      "overriddenMethodCount": 2,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.BranchRollbackResponse",
+      "kind": "class",
+      "inheritanceDepth": 4,
+      "overriddenMethodCount": 1,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.GlobalBeginRequest",
+      "kind": "class",
+      "inheritanceDepth": 3,
+      "overriddenMethodCount": 4,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 5,
+        "branches": 16,
+        "conditions": 3,
+        "value": 17.029386365926403
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.GlobalBeginResponse",
+      "kind": "class",
+      "inheritanceDepth": 3,
+      "overriddenMethodCount": 3,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 6,
+        "branches": 19,
+        "conditions": 6,
+        "value": 20.808652046684813
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.GlobalCommitRequest",
+      "kind": "class",
+      "inheritanceDepth": 4,
+      "overriddenMethodCount": 2,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.GlobalCommitResponse",
+      "kind": "class",
+      "inheritanceDepth": 4,
+      "overriddenMethodCount": 1,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.GlobalLockQueryRequest",
+      "kind": "class",
+      "inheritanceDepth": 4,
+      "overriddenMethodCount": 2,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.GlobalLockQueryResponse",
+      "kind": "class",
+      "inheritanceDepth": 3,
+      "overriddenMethodCount": 3,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 5,
+        "conditions": 2,
+        "value": 5.385164807134504
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.GlobalRollbackRequest",
+      "kind": "class",
+      "inheritanceDepth": 4,
+      "overriddenMethodCount": 2,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.GlobalRollbackResponse",
+      "kind": "class",
+      "inheritanceDepth": 4,
+      "overriddenMethodCount": 1,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.GlobalStatusRequest",
+      "kind": "class",
+      "inheritanceDepth": 4,
+      "overriddenMethodCount": 2,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.GlobalStatusResponse",
+      "kind": "class",
+      "inheritanceDepth": 4,
+      "overriddenMethodCount": 1,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.ChannelManager",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 5,
+      "abc": {
+        "assignments": 73,
+        "branches": 241,
+        "conditions": 54,
+        "value": 257.5383466592888
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.ClientType",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 4,
+        "branches": 14,
+        "conditions": 2,
+        "value": 14.696938456699069
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.DefaultServerMessageListenerImpl",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 4,
+      "fieldCount": 9,
+      "abc": {
+        "assignments": 16,
+        "branches": 96,
+        "conditions": 14,
+        "value": 98.32598842625482
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.DefaultServerMessageListenerImpl$BatchLogRunnable",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 2,
+        "branches": 19,
+        "conditions": 3,
+        "value": 19.339079605813716
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.RpcContext",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 10,
+      "abc": {
+        "assignments": 17,
+        "branches": 78,
+        "conditions": 17,
+        "value": 81.62107570964744
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.AbstractRpcRemoting",
+      "kind": "abstract",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 15,
+      "abc": {
+        "assignments": 29,
+        "branches": 212,
+        "conditions": 25,
+        "value": 215.42980295214494
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.AbstractRpcRemoting$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 5,
+        "branches": 28,
+        "conditions": 4,
+        "value": 28.722813232690143
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.AbstractRpcRemoting$2",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 1,
+        "branches": 10,
+        "conditions": 2,
+        "value": 10.246950765959598
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.AbstractRpcRemoting$3",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 1,
+        "branches": 7,
+        "conditions": 0,
+        "value": 7.0710678118654755
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.AbstractRpcRemoting$4",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 1,
+        "branches": 7,
+        "conditions": 0,
+        "value": 7.0710678118654755
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.AbstractRpcRemotingClient",
+      "kind": "abstract",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 5,
+      "fieldCount": 15,
+      "abc": {
+        "assignments": 16,
+        "branches": 114,
+        "conditions": 21,
+        "value": 117.01709276853532
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.AbstractRpcRemotingClient$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 1,
+        "branches": 12,
+        "conditions": 0,
+        "value": 12.041594578792296
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.AbstractRpcRemotingClient$1$1",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 1,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 1,
+        "branches": 15,
+        "conditions": 0,
+        "value": 15.033296378372908
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.AbstractRpcRemotingClient$2",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 1,
+        "branches": 14,
+        "conditions": 1,
+        "value": 14.071247279470288
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.AbstractRpcRemotingClient$MergedSendRunnable",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 17,
+        "branches": 59,
+        "conditions": 10,
+        "value": 62.20932405998317
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.AbstractRpcRemotingServer",
+      "kind": "abstract",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 3,
+      "fieldCount": 7,
+      "abc": {
+        "assignments": 3,
+        "branches": 78,
+        "conditions": 6,
+        "value": 78.28793010419933
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.AbstractRpcRemotingServer$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 10,
+        "conditions": 1,
+        "value": 10.04987562112089
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.ChannelAuthHealthChecker$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 1,
+        "branches": 5,
+        "conditions": 1,
+        "value": 5.196152422706631
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.DefaultChannelPoolHandler",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.MessageCodecHandler",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 9,
+      "abc": {
+        "assignments": 34,
+        "branches": 132,
+        "conditions": 32,
+        "value": 140.0142849854971
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.NettyBaseConfig",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 13,
+      "abc": {
+        "assignments": 2,
+        "branches": 29,
+        "conditions": 11,
+        "value": 31.080540535840107
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.NettyBaseConfig$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 2,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.605551275463989
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.NettyBaseConfig$WorkThreadMode",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 6,
+      "abc": {
+        "assignments": 0,
+        "branches": 19,
+        "conditions": 4,
+        "value": 19.4164878389476
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.NettyBaseConfigTest",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 1,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.1622776601683795
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.NettyClientConfig",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 0,
+      "fieldCount": 28,
+      "abc": {
+        "assignments": 0,
+        "branches": 14,
+        "conditions": 2,
+        "value": 14.142135623730951
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.NettyPoolKey",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.NettyPoolKey$TransactionRole",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 5,
+      "abc": {
+        "assignments": 0,
+        "branches": 6,
+        "conditions": 0,
+        "value": 6.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.NettyPoolableFactory",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 8,
+        "branches": 87,
+        "conditions": 18,
+        "value": 89.20201791439474
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.NettyServerConfig",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 0,
+      "fieldCount": 19,
+      "abc": {
+        "assignments": 0,
+        "branches": 10,
+        "conditions": 3,
+        "value": 10.44030650891055
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.RmMessageListener",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 6,
+        "branches": 27,
+        "conditions": 4,
+        "value": 27.94637722496424
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.RmRpcClient",
+      "kind": "class",
+      "inheritanceDepth": 2,
+      "overriddenMethodCount": 12,
+      "fieldCount": 16,
+      "abc": {
+        "assignments": 61,
+        "branches": 283,
+        "conditions": 49,
+        "value": 293.6170975948097
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.RmRpcClient$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.RpcClientHandler",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 3,
+        "branches": 26,
+        "conditions": 0,
+        "value": 26.1725046566048
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.RpcServer",
+      "kind": "class",
+      "inheritanceDepth": 2,
+      "overriddenMethodCount": 10,
+      "fieldCount": 4,
+      "abc": {
+        "assignments": 15,
+        "branches": 163,
+        "conditions": 26,
+        "value": 165.7407614318216
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.RpcServerHandler",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 1,
+        "branches": 30,
+        "conditions": 4,
+        "value": 30.28200785945344
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.TmRpcClient",
+      "kind": "class",
+      "inheritanceDepth": 2,
+      "overriddenMethodCount": 12,
+      "fieldCount": 16,
+      "abc": {
+        "assignments": 40,
+        "branches": 219,
+        "conditions": 37,
+        "value": 225.67675999092154
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.TmRpcClient$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 1,
+        "branches": 5,
+        "conditions": 0,
+        "value": 5.0990195135927845
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.TmRpcClientTest",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.TransportProtocolType",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 5,
+      "abc": {
+        "assignments": 0,
+        "branches": 6,
+        "conditions": 0,
+        "value": 6.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.TransportServerType",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 4,
+      "abc": {
+        "assignments": 0,
+        "branches": 5,
+        "conditions": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.service.ConfigurationKeys",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 9,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.service.ServiceManagerStaticConfigImpl",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 4,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 3,
+        "branches": 21,
+        "conditions": 5,
+        "value": 21.79449471770337
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.dubbo.TransactionPropagationFilter",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 8,
+        "branches": 71,
+        "conditions": 12,
+        "value": 72.44998274671981
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.AbstractRMHandlerAT",
+      "kind": "abstract",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 4,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 3,
+        "branches": 11,
+        "conditions": 1,
+        "value": 11.445523142259598
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.AbstractRMHandlerAT$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.AbstractRMHandlerAT$2",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.RMClientAT",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 2,
+        "branches": 11,
+        "conditions": 0,
+        "value": 11.180339887498949
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.RMHandlerAT",
+      "kind": "class",
+      "inheritanceDepth": 2,
+      "overriddenMethodCount": 2,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 10,
+        "branches": 45,
+        "conditions": 0,
+        "value": 46.09772228646444
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.AbstractConnectionProxy",
+      "kind": "abstract",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 9,
+        "branches": 66,
+        "conditions": 0,
+        "value": 66.61080993352356
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.AbstractDataSourceProxy",
+      "kind": "abstract",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 8,
+        "conditions": 0,
+        "value": 8.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.AbstractPreparedStatementProxy",
+      "kind": "abstract",
+      "inheritanceDepth": 2,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 2,
+        "branches": 117,
+        "conditions": 1,
+        "value": 117.02136557056579
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.AbstractStatementProxy",
+      "kind": "abstract",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 0,
+        "branches": 39,
+        "conditions": 1,
+        "value": 39.01281840626232
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.AsyncWorker",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 2,
+      "fieldCount": 4,
+      "abc": {
+        "assignments": 19,
+        "branches": 69,
+        "conditions": 9,
+        "value": 72.13182376732202
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.AsyncWorker$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 1,
+        "branches": 9,
+        "conditions": 0,
+        "value": 9.055385138137417
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.AsyncWorker$Phase2Context",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 4,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.ConnectionContext",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 4,
+      "abc": {
+        "assignments": 2,
+        "branches": 24,
+        "conditions": 9,
+        "value": 25.709920264364882
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.ConnectionProxy",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 20,
+        "branches": 94,
+        "conditions": 16,
+        "value": 97.4268956705488
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.DataSourceManager",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 8,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 15,
+        "branches": 77,
+        "conditions": 5,
+        "value": 78.60661549767933
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.DataSourceManager$SingletonHolder",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.DataSourceProxy",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 2,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 2,
+        "branches": 17,
+        "conditions": 1,
+        "value": 17.146428199482248
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.PreparedStatementProxy",
+      "kind": "class",
+      "inheritanceDepth": 3,
+      "overriddenMethodCount": 1,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 2,
+        "branches": 13,
+        "conditions": 1,
+        "value": 13.19090595827292
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.PreparedStatementProxy$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 4,
+        "conditions": 0,
+        "value": 4.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.PreparedStatementProxy$2",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.PreparedStatementProxy$3",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 4,
+        "conditions": 0,
+        "value": 4.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.StatementProxy",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 1,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 9,
+        "conditions": 0,
+        "value": 9.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.StatementProxy$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.StatementProxy$2",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 4,
+        "conditions": 0,
+        "value": 4.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.exec.AbstractDMLBaseExecutor",
+      "kind": "abstract",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 1,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 10,
+        "branches": 21,
+        "conditions": 1,
+        "value": 23.280893453645632
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.exec.BaseTransactionalExecutor",
+      "kind": "abstract",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 4,
+      "abc": {
+        "assignments": 4,
+        "branches": 22,
+        "conditions": 3,
+        "value": 22.561028345356956
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.exec.DeleteExecutor",
+      "kind": "class",
+      "inheritanceDepth": 2,
+      "overriddenMethodCount": 2,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 23,
+        "branches": 48,
+        "conditions": 12,
+        "value": 54.56189146281496
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.exec.ExecuteTemplate",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 10,
+        "branches": 18,
+        "conditions": 4,
+        "value": 20.97617696340303
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.exec.ExecuteTemplate$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 4,
+        "branches": 5,
+        "conditions": 0,
+        "value": 6.4031242374328485
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.exec.InsertExecutor",
+      "kind": "class",
+      "inheritanceDepth": 2,
+      "overriddenMethodCount": 2,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 32,
+        "branches": 73,
+        "conditions": 18,
+        "value": 81.71291207636648
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.exec.LockConflictException",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.exec.LockRetryController",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 4,
+      "abc": {
+        "assignments": 1,
+        "branches": 7,
+        "conditions": 1,
+        "value": 7.14142842854285
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.exec.LockWaitTimeoutException",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.exec.PlainExecutor",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.exec.SelectForUpdateExecutor",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 1,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 26,
+        "branches": 59,
+        "conditions": 18,
+        "value": 66.94027188471824
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.exec.UpdateExecutor",
+      "kind": "class",
+      "inheritanceDepth": 2,
+      "overriddenMethodCount": 2,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 38,
+        "branches": 90,
+        "conditions": 22,
+        "value": 100.13990213696037
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.SQLParsingException",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.SQLType",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 49,
+      "abc": {
+        "assignments": 4,
+        "branches": 57,
+        "conditions": 2,
+        "value": 57.17516943569123
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.SQLVisitorFactory",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 11,
+        "branches": 17,
+        "conditions": 8,
+        "value": 21.77154105707724
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.druid.BaseRecognizer",
+      "kind": "abstract",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.druid.BaseRecognizer$VMarker",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.druid.MySQLDeleteRecognizer",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 5,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 10,
+        "branches": 21,
+        "conditions": 2,
+        "value": 23.345235059857508
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.druid.MySQLDeleteRecognizer$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.druid.MySQLDeleteRecognizer$2",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 1,
+        "branches": 8,
+        "conditions": 1,
+        "value": 8.124038404635959
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.druid.MySQLInsertRecognizer",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 5,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 16,
+        "branches": 53,
+        "conditions": 6,
+        "value": 55.68662316930342
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.druid.MySQLInsertRecognizer$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.druid.MySQLSelectForUpdateRecognizer",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 5,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 18,
+        "branches": 29,
+        "conditions": 4,
+        "value": 34.36568055487916
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.druid.MySQLSelectForUpdateRecognizer$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 1,
+        "branches": 8,
+        "conditions": 1,
+        "value": 8.124038404635959
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.druid.MySQLSelectForUpdateRecognizer$2",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.druid.MySQLUpdateRecognizer",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 7,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 23,
+        "branches": 66,
+        "conditions": 9,
+        "value": 70.46985170979147
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.druid.MySQLUpdateRecognizer$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 1,
+        "branches": 8,
+        "conditions": 1,
+        "value": 8.124038404635959
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.druid.MySQLUpdateRecognizer$2",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.struct.ColumnMeta",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 18,
+      "abc": {
+        "assignments": 0,
+        "branches": 50,
+        "conditions": 0,
+        "value": 50.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.struct.Field",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 4,
+      "abc": {
+        "assignments": 0,
+        "branches": 5,
+        "conditions": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.struct.IndexMeta",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 9,
+      "abc": {
+        "assignments": 0,
+        "branches": 10,
+        "conditions": 0,
+        "value": 10.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.struct.IndexType",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 6,
+      "abc": {
+        "assignments": 4,
+        "branches": 14,
+        "conditions": 2,
+        "value": 14.696938456699069
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.struct.KeyType",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 0,
+        "branches": 5,
+        "conditions": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.struct.Null",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.struct.Row",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 3,
+        "branches": 11,
+        "conditions": 3,
+        "value": 11.789826122551595
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.struct.TableMeta",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 29,
+        "branches": 109,
+        "conditions": 21,
+        "value": 114.73011810331235
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.struct.TableMeta$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 2,
+        "branches": 8,
+        "conditions": 1,
+        "value": 8.306623862918075
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.struct.TableMeta$2",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 4,
+        "branches": 5,
+        "conditions": 0,
+        "value": 6.4031242374328485
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.struct.TableMetaCache",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 47,
+        "branches": 213,
+        "conditions": 34,
+        "value": 220.75778581966253
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.struct.TableMetaCache$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.struct.TableRecords",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 10,
+        "branches": 36,
+        "conditions": 4,
+        "value": 37.57658845611188
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.struct.TableRecords$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 5,
+        "branches": 12,
+        "conditions": 3,
+        "value": 13.341664064126334
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.struct.TableRecords$2",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 4,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 4,
+        "conditions": 0,
+        "value": 4.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.AbstractUndoExecutor",
+      "kind": "abstract",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 14,
+        "branches": 28,
+        "conditions": 5,
+        "value": 31.70173496829472
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.BranchUndoLog",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.BranchUndoLogTest",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 10,
+        "branches": 41,
+        "conditions": 0,
+        "value": 42.20189569201838
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.JSONBasedUndoLogParser",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 2,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.SQLUndoLog",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 4,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 2,
+        "value": 3.605551275463989
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.UndoExecutorFactory",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 9,
+        "conditions": 2,
+        "value": 9.219544457292887
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.UndoExecutorFactory$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 3,
+        "branches": 4,
+        "conditions": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.UndoExecutorTest",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 42,
+        "branches": 164,
+        "conditions": 0,
+        "value": 169.29264603047588
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.UndoExecutorTest$MockConnection",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.UndoExecutorTest$MockConnection$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.UndoExecutorTest$MockTableMeta",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 2,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.UndoLogManager",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 5,
+      "abc": {
+        "assignments": 28,
+        "branches": 91,
+        "conditions": 14,
+        "value": 96.23408959407264
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.UndoLogParserFactory",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.UndoLogParserFactory$SingletonHolder",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.mysql.MySQLUndoDeleteExecutor",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 2,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 12,
+        "branches": 36,
+        "conditions": 6,
+        "value": 38.41874542459709
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.mysql.MySQLUndoInsertExecutor",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 3,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 8,
+        "branches": 30,
+        "conditions": 4,
+        "value": 31.304951684997057
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.mysql.MySQLUndoUpdateExecutor",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 2,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 9,
+        "branches": 35,
+        "conditions": 5,
+        "value": 36.4828726939094
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.AbstractTCInboundHandler",
+      "kind": "abstract",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 7,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 7,
+        "branches": 22,
+        "conditions": 0,
+        "value": 23.08679276123039
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.AbstractTCInboundHandler$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.AbstractTCInboundHandler$2",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.AbstractTCInboundHandler$3",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.AbstractTCInboundHandler$4",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.AbstractTCInboundHandler$5",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.AbstractTCInboundHandler$6",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.AbstractTCInboundHandler$7",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.Server",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 5,
+        "branches": 19,
+        "conditions": 2,
+        "value": 19.748417658131498
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.UUIDGenerator",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 10,
+        "branches": 14,
+        "conditions": 2,
+        "value": 17.320508075688775
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.coordinator.CoreFactory",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.coordinator.CoreFactory$SingletonHolder",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.coordinator.DefaultCoordinator",
+      "kind": "class",
+      "inheritanceDepth": 2,
+      "overriddenMethodCount": 11,
+      "fieldCount": 7,
+      "abc": {
+        "assignments": 28,
+        "branches": 220,
+        "conditions": 13,
+        "value": 222.15535104966526
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.coordinator.DefaultCoordinator$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 1,
+        "branches": 4,
+        "conditions": 0,
+        "value": 4.123105625617661
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.coordinator.DefaultCoordinator$2",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 1,
+        "branches": 4,
+        "conditions": 0,
+        "value": 4.123105625617661
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.coordinator.DefaultCoordinator$3",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 1,
+        "branches": 4,
+        "conditions": 0,
+        "value": 4.123105625617661
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.coordinator.DefaultCoordinator$4",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 1,
+        "branches": 4,
+        "conditions": 0,
+        "value": 4.123105625617661
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.coordinator.DefaultCore",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 10,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 25,
+        "branches": 236,
+        "conditions": 30,
+        "value": 239.2091135387613
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.coordinator.DefaultCore$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 4,
+        "branches": 5,
+        "conditions": 0,
+        "value": 6.4031242374328485
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.lock.DefaultLockManagerImpl",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 2,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 46,
+        "branches": 80,
+        "conditions": 17,
+        "value": 93.83496150156401
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.lock.LockManagerFactory",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.lock.LockManagerFactory$SingletonHolder",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.session.AbstractSessionManager",
+      "kind": "abstract",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 16,
+      "fieldCount": 4,
+      "abc": {
+        "assignments": 3,
+        "branches": 95,
+        "conditions": 9,
+        "value": 95.4725091322104
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.session.BranchSession",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 4,
+      "fieldCount": 12,
+      "abc": {
+        "assignments": 40,
+        "branches": 101,
+        "conditions": 22,
+        "value": 110.83771921146699
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.session.DefaultSessionManager",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.session.DefaultSessionManager$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 4,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.session.FileBasedSessionManager",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 6,
+        "conditions": 0,
+        "value": 6.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.session.GlobalSession",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 10,
+      "fieldCount": 10,
+      "abc": {
+        "assignments": 37,
+        "branches": 99,
+        "conditions": 21,
+        "value": 107.75435026020992
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.session.SessionCondition",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.session.SessionHolder",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 8,
+      "abc": {
+        "assignments": 1,
+        "branches": 20,
+        "conditions": 6,
+        "value": 20.904544960366874
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.store.FileTransactionStoreManager",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 4,
+      "fieldCount": 28,
+      "abc": {
+        "assignments": 46,
+        "branches": 130,
+        "conditions": 22,
+        "value": 139.64240043768942
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.store.FileTransactionStoreManager$WriteDataFileRunnable",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 20,
+        "branches": 103,
+        "conditions": 16,
+        "value": 106.13670430157515
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.store.TransactionStoreManager$LogOperation",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 8,
+      "abc": {
+        "assignments": 7,
+        "branches": 9,
+        "conditions": 1,
+        "value": 11.445523142259598
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.store.TransactionWriteFuture",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 9,
+      "abc": {
+        "assignments": 1,
+        "branches": 27,
+        "conditions": 5,
+        "value": 27.477263328068172
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.store.TransactionWriteStore",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 2,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 12,
+        "branches": 17,
+        "conditions": 1,
+        "value": 20.83266665599966
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.store.TransactionWriteStore$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 6,
+        "branches": 7,
+        "conditions": 0,
+        "value": 9.219544457292887
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.spring.annotation.GlobalTransactionScanner",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 12,
+      "abc": {
+        "assignments": 24,
+        "branches": 85,
+        "conditions": 19,
+        "value": 90.34378783292186
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.spring.annotation.GlobalTransactionalInterceptor",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 12,
+        "branches": 41,
+        "conditions": 6,
+        "value": 43.13930922024598
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.spring.annotation.GlobalTransactionalInterceptor$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 3,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 0,
+        "branches": 7,
+        "conditions": 1,
+        "value": 7.0710678118654755
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.spring.annotation.GlobalTransactionalInterceptor$2",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 4,
+        "branches": 5,
+        "conditions": 0,
+        "value": 6.4031242374328485
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.spring.annotation.MethodDesc",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.test.DataSourceBasicTest",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 4,
+        "branches": 13,
+        "conditions": 0,
+        "value": 13.601470508735444
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.test.DataSourceBasicTest$1",
+      "kind": "class",
+      "inheritanceDepth": 1,
+      "overriddenMethodCount": 7,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.test.client.AppTest",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 7,
+        "branches": 23,
+        "conditions": 2,
+        "value": 24.124676163629633
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.test.client.AppTest$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 3,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 6,
+        "conditions": 0,
+        "value": 6.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.test.client.AppTest$MyBusinessException",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.test.common.ApplicationKeeper",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 3,
+        "branches": 12,
+        "conditions": 0,
+        "value": 12.36931687685298
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.test.common.ApplicationKeeper$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 2,
+        "branches": 19,
+        "conditions": 0,
+        "value": 19.1049731745428
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.DefaultTransactionManager",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 4,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 12,
+        "branches": 26,
+        "conditions": 0,
+        "value": 28.635642126552707
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.DefaultTransactionManager$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.DefaultTransactionManager$SingletonHolder",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 2,
+        "conditions": 0,
+        "value": 2.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.TMClient",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 1,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.1622776601683795
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.APITest",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 2,
+        "branches": 5,
+        "conditions": 0,
+        "value": 5.385164807134504
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.DefaultFailureHandlerImpl",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 3,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 17,
+        "conditions": 0,
+        "value": 17.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.DefaultGlobalTransaction",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 7,
+      "fieldCount": 7,
+      "abc": {
+        "assignments": 0,
+        "branches": 28,
+        "conditions": 7,
+        "value": 28.861739379323623
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.DemoCode",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 12,
+        "branches": 39,
+        "conditions": 1,
+        "value": 40.8166632639171
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.DemoCode$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 3,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 4,
+        "conditions": 0,
+        "value": 4.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.DemoCode$2",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 4,
+        "branches": 5,
+        "conditions": 0,
+        "value": 6.4031242374328485
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.DemoCode$MyFailureHandler",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 3,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 2,
+        "branches": 26,
+        "conditions": 0,
+        "value": 26.076809620810597
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.DemoCode$MyFailureHandler$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 1,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.1622776601683795
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.DemoCode$MyFailureHandler$2",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 1,
+        "branches": 3,
+        "conditions": 0,
+        "value": 3.1622776601683795
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.GlobalTransactionContext",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 5,
+        "branches": 14,
+        "conditions": 3,
+        "value": 15.165750888103101
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.GlobalTransactionRole",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 0,
+        "branches": 5,
+        "conditions": 0,
+        "value": 5.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.TransactionalExecutor$Code",
+      "kind": "enum",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 5,
+      "abc": {
+        "assignments": 0,
+        "branches": 7,
+        "conditions": 0,
+        "value": 7.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.TransactionalExecutor$ExecutionException",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 0,
+        "branches": 4,
+        "conditions": 0,
+        "value": 4.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.TransactionalTemplate",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 7,
+        "branches": 12,
+        "conditions": 0,
+        "value": 13.892443989449804
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.dubbo.Order",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 5,
+      "abc": {
+        "assignments": 0,
+        "branches": 16,
+        "conditions": 0,
+        "value": 16.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.dubbo.impl.AccountServiceImpl",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 4,
+        "branches": 19,
+        "conditions": 0,
+        "value": 19.4164878389476
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.dubbo.impl.BusinessServiceImpl",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 2,
+        "branches": 19,
+        "conditions": 0,
+        "value": 19.1049731745428
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.dubbo.impl.OrderServiceImpl",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 3,
+      "abc": {
+        "assignments": 7,
+        "branches": 27,
+        "conditions": 0,
+        "value": 27.892651361962706
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.dubbo.impl.OrderServiceImpl$1",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 0,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 1,
+        "branches": 8,
+        "conditions": 0,
+        "value": 8.06225774829855
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.dubbo.impl.StorageServiceImpl",
+      "kind": "class",
+      "inheritanceDepth": 0,
+      "overriddenMethodCount": 1,
+      "fieldCount": 2,
+      "abc": {
+        "assignments": 4,
+        "branches": 19,
+        "conditions": 0,
+        "value": 19.4164878389476
+      }
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "com.alibaba.fescar.common.loader.LoadLevel",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.config.ConfigChangeListener",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.config.Configuration",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.context.ContextCore",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.exception.AbstractExceptionHander$Callback",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.model.Resource",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.model.ResourceManager",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.model.ResourceManagerInbound",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.model.ResourceManagerOutbound",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.model.TransactionManager",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.MergeMessage",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.MergedMessage",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.MessageCodec",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.RMInboundHandler",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.protocol.transaction.TCInboundHandler",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.ClientMessageListener",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.ClientMessageSender",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.RemotingServer",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.RemotingService",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.ServerMessageListener",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.ServerMessageSender",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.TransactionMessageHandler",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.ChannelAuthHealthChecker",
+      "fieldCount": 1,
+      "abc": {
+        "assignments": 0,
+        "branches": 1,
+        "conditions": 0,
+        "value": 1.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.ChannelEventListener",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.RegisterCheckAuthHandler",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.RegisterMsgListener",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.rpc.netty.RpcEventLoopGroup",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.service.AddressWatcher",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.core.service.ServiceManager",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.ParametersHolder",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.exec.Executor",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.exec.StatementCallback",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.SQLDeleteRecognizer",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.SQLInsertRecognizer",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.SQLRecognizer",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.SQLSelectRecognizer",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.SQLUpdateRecognizer",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.sql.WhereRecognizer",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.rm.datasource.undo.UndoLogParser",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.coordinator.Core",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.lock.LockManager",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.session.Lockable",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.session.SessionLifecycle",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.session.SessionLifecycleListener",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.session.SessionManager",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.store.SessionStorable",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.server.store.TransactionStoreManager",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.spring.annotation.GlobalTransactional",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.FailureHandler",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.GlobalTransaction",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.api.TransactionalExecutor",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.dubbo.AccountService",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.dubbo.BusinessService",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.dubbo.OrderService",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    },
+    {
+      "name": "com.alibaba.fescar.tm.dubbo.StorageService",
+      "fieldCount": 0,
+      "abc": {
+        "assignments": 0,
+        "branches": 0,
+        "conditions": 0,
+        "value": 0.0
+      }
+    }
+  ]
+}
